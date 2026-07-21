@@ -1,14 +1,86 @@
+```html
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <meta
     name="description"
     content="Mery Ferrando, Assistant Professor of Economics at Tilburg University."
   >
+
   <title>Mery Ferrando</title>
+
   <link rel="stylesheet" href="assets/style.css">
+
+  <style>
+    /* Homepage-specific overrides */
+
+    .hero {
+      grid-template-columns: 250px minmax(0, 620px);
+      gap: 58px;
+      padding: 68px 0 52px;
+    }
+
+    .hero-content {
+      max-width: 620px;
+    }
+
+    .hero-title {
+      margin: 0 0 16px;
+      padding: 0;
+      border: 0;
+      font-size: clamp(28px, 3.5vw, 38px);
+      font-weight: 600;
+      line-height: 1.1;
+      letter-spacing: -0.015em;
+    }
+
+    .hero-position {
+      max-width: 580px;
+      margin: 0 0 12px;
+      font-size: 17px;
+      line-height: 1.45;
+    }
+
+    .hero-description {
+      max-width: 580px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .actions {
+      margin-top: 25px;
+    }
+
+    .contact-card {
+      margin-top: 0;
+    }
+
+    @media (max-width: 700px) {
+      .hero {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 44px 0 38px;
+      }
+
+      .hero-title {
+        margin-bottom: 14px;
+        font-size: 29px;
+      }
+
+      .hero-position {
+        font-size: 16px;
+      }
+
+      .hero-description {
+        font-size: 15px;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -16,6 +88,7 @@
     <div class="wrap header-inner">
       <div>
         <a class="site-title" href="index.html">Mery Ferrando</a>
+
         <p class="site-meta">
           Assistant Professor of Economics · Tilburg University
         </p>
@@ -69,6 +142,7 @@
     <section class="contact-card" aria-label="Contact information">
       <div>
         <span class="label">Email</span>
+
         <a href="mailto:m.ferrando@tilburguniversity.edu">
           m.ferrando@tilburguniversity.edu
         </a>
@@ -76,6 +150,7 @@
 
       <div>
         <span class="label">Address</span>
+
         <span>
           Warandelaan 2, 5037 AB Tilburg, The Netherlands
         </span>
@@ -88,3 +163,4 @@
   </footer>
 </body>
 </html>
+```
