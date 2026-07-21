@@ -36,7 +36,7 @@ nav a:hover, nav a.active { color: var(--ink); border-color: var(--accent); }
 .portrait { width: 100%; aspect-ratio: 248 / 299; object-fit: cover; border-radius: 3px; box-shadow: 0 16px 38px rgba(50,35,25,.16); }
 .eyebrow { margin: 0 0 8px; color: var(--accent); text-transform: uppercase; letter-spacing: .13em; font: 700 12px/1.2 Arial, sans-serif; }
 h1 { margin: 0 0 18px; font-size: clamp(42px, 7vw, 68px); line-height: 1.05; letter-spacing: -.025em; }
-h2 { margin: 54px 0 22px; padding-bottom: 9px; border-bottom: 1px solid var(--line); font-size: 28px; }
+h2 {  margin: 42px 0 18px;   padding-bottom: 8px;   border-bottom: 1px solid var(--line);   font-size: 22px;   font-weight: 600;}
 .page-content section:first-child h2 {
   margin-top: 0;
 }
