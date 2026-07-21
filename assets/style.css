@@ -128,5 +128,5 @@ footer { padding: 24px 0 38px; border-top: 1px solid var(--line); color: var(--m
   font-size: 13px;
 }
 .timeline-item + .timeline-item {
-  margin-top: 4px;
+  margin-top: 0px;
 }
