@@ -77,3 +77,10 @@ footer { padding: 24px 0 38px; border-top: 1px solid var(--line); color: var(--m
   .contact-card { grid-template-columns: 1fr; }
   .timeline-item { grid-template-columns: 1fr; gap: 5px; }
 }
+/* Teaching page only */
+.page-content .timeline-item h3 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0 0 4px;
+}
