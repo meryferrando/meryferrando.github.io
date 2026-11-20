@@ -163,7 +163,8 @@ footer { padding: 24px 0 38px; border-top: 1px solid var(--line); color: var(--m
 }
 
 .news {
-  margin: 24px 0;
+  margin-top: 0px;
+  margin-bottom: 60px;
 }
 
 .news p {
